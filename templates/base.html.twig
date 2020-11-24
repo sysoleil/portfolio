@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sylvie Ferrer developpeur Web junior</title>
+    <meta name="author" content="Sylvie FERRER"/>
+    <meta name="description" content="Developpeuse Web et Mobile, product Owner. Sylvie Ferrer disponible pour réaliser votre site internet ou travailler dans votre entreprise pour développer logiciels et programmes."/>
+    <meta name="keywords" content="developpeuse, developpeur, web, mobile, site, internet, html, css, javascript, php, symfony, IT, bordeaux, gironde, France"/>
+    <meta name="robots" content="index, follow"/>
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <script src="https://kit.fontawesome.com/0dd8da31e8.js" crossorigin="anonymous"></script>
+
+    <title>{% block title %}Sylvie FERRER developpeur Web-Internet junior{% endblock %}</title>
+    {% block stylesheets %}
+    {% endblock %}
+</head>
+
+<body>
+{% block body %}
+
+{% endblock %}
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+{% block javascripts %}{% endblock %}
+{% include '_footer.html.twig' %}
+</body>
 </html>

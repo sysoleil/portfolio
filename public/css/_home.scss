@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color:$blue;
+  font-size: 18px;
+  font-family: $f1;
+}
+.header {
+  height: 60vh;
+  width: 100%;
+  background-image: url("../img/bordeaux.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  z-index: 1;
+}
+.filtreHeader {
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+//-----------------------------------------------------   header     ---------------------------------------------------
+.items {
+  height: 10vh;
+  width: 100%;
+  z-index: 50;
+  position: fixed;
+  margin-left: 150px;
+  color: $title;
+}
+.navContainer {
+  display: flex;
+  float: right;
+  margin: 20px 180px 2px 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.nav {
+  margin: 5px 25px 0 0;
+  list-style-type: none;
+  font-size:20px;
+}
+//---------------------------------------------------   propos     -----------------------------------------------------
+.sylvie {
+  margin: 10px 0px 0px 70px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#blocSylvie{
+  width: 25%;
+  position: absolute;
+  top: 530px;
+  right: 25px;
+}
+.cadre1{
+  background-color: $bg1;
+  padding: 50px 50px 50px 50px;
+}
+.title1 {
+  font-size: xx-large;
+  padding: 50px 0 50px 0;
+  color: $title;
+}
+.bloc1 {
+  width: 75%;
+  margin: 0;
+  line-height: 20px;
+}
+.blocLeft{
+  width: 75%;
+  padding: 40px;
+  margin: 40px;
+}
+.bloc1P{
+  padding: $margep;
+  line-height: 22px;
+}
+//---------------------------------------------------   other Bloc     -------------------------------------------------
+.cadre2{
+  background: $bg2;
+}
+.title2 {
+  font-size: xx-large;
+  padding: 100px 100px 100px 0;
+  color: $title;
+}
+.bloc2 {
+  width: 75%;
+  line-height: 15px;
+  padding: 30px 0 20px 20px;
+}
+.blocRight{
+  padding: 50px 0 30px 450px;
+}
+//---------------------------------------------------  Bloc Competence    ----------------------------------------------
+.blocCompetenceP{
+  width: 75%;
+  margin: 0;
+  line-height: 20px;
+}
+.button1{
+  margin: 50px
+}
+//---------------------------------------------------   images     -----------------------------------------------------
+.dev{
+  width: $img;
+}
+.back{
+  width: $img;
+}
+.front{
+  width: $img;
+}
+.stack{
+  width: $img;
+}
+.language{
+  width: $img;
+ }
+.web{
+  width: $img;
+}
+//---------------------------------------------------   Footer     -----------------------------------------------------
+.cadre {
+  background-color: $pink;
+  height: 15vh;
+  padding-top: 7vh;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}

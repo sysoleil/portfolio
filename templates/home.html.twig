@@ -1,0 +1,107 @@
+{% extends 'base.html.twig' %}
+    {% block body %}
+        {% include '_header.html.twig' %}
+<main>
+    <section >
+        <div class="cadre1">
+            <div class="bloc1" id="propos">
+                <h2><a class="title1">A propos de moi</a></h2>
+                <div class="blocLeft">
+                    <p class="bloc1P">Hello tout le monde ! Je suis Bordelaise... Bon Ok !!!! il y avait un petit indice ... </p>
+                    <p class="bloc1P">Ah et j'ai déjà une petite "carrière" derrière moi. J'ai occupé des métiers différents dans des secteurs différents.</p>
+                    <p class="bloc1P">Mais voilà, le digital m'attirait, m'attire et m'attirera toujours. Pourtant j'ai résisté !!! Mais rien n'y a fait. Du coup, je me suis lancée à corps et à cerveau perdu dans l'aventure.... et J'ADORE !!!</p>
+                    <p class="bloc1P">Bon à présent mes loisirs... Je joue principalement au golf ce qui me permet de m'évader et de m'oxygéner... En attendant de pouvoir aller randonner dans les Pyrénées. Ah oui et je bricole... enfin du gros oeuvre. et pour le reste on en parlera de visu...</p>
+                </div>
+            </div>
+            <div id="blocSylvie">
+                <img src="{{ asset('img/sylvie.jpeg') }}" class="sylvie">
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="cadre2">
+            <div class="bloc2" id="parcours">
+                <h2><a class="title2">Parcours atypique</a></h2>
+                <div class="blocLeft">
+                    <p class="bloc1P">25 années dans la gestion de projets, l'administratif, le commerce et les RH et me voilà ! Reconversion à 360°... et oui me voilà enfin dans le monde du numérique et du développement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="cadre1">
+            <div class="bloc1" id="experience">
+                <h><a class="title1">Mon expérience</a></h>
+                <div class="blocLeft">
+                    <p class="bloc1P"> Expérience à compléter... </p>
+                    <p class="bloc1P">25 années dans la gestion de projets, l'administratif, le commerce et les RH et me voilà ! Reconversion à 360°... et oui me voilà enfin dans le monde du numérique et du développement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="cadre2">
+            <div class="bloc2" id="competence">
+                <h2><a class="title2">Mes compétences</a></h2>
+                <div class="blocLeft1">
+                    <img class="dev" src="img/development.png">
+                    <h3><a class="title3">Compétences métier</a></h3>
+                    <p class="blocCompetenceP">Maquetter une application </p>
+                    <p class="blocCompetenceP">Conception de site sous Symfony (MVC, CRUD) et sous Wordpress</p>
+                    <p class="blocCompetenceP">Programmation en POO</p>
+                    <p class="blocCompetenceP">Création d’interface WEB dynamique et statique</p>
+                    <P class="blocCompetenceP">Créer une base de données</P>
+                    <P class="blocCompetenceP">Exécuter des requêtes</P>
+                    <P class="blocCompetenceP">CEO optimisation du référencement</P>
+                </div>
+                <div class="blocLeft2">
+                    <img class="back" src="img/back.png">
+                    <h3><a class="title3">Back-end</a></h3>
+                    <p class="bloc1P">✓ PHP</p>
+                    <p class="bloc1P">✓ SYMPHONY 5</p>
+                    <p class="bloc1P">✓ MySQL/BDD</p>
+                    <p class="bloc1P">✓ Doctrine/ORM</p>
+                </div>
+                <div class="blocLeft3">
+                    <img class="front" src="img/frontEnd.png">
+                    <h3><a class="title3">Front-end</a></h3>
+                    <p class="bloc1P">✓ HTML / CSS</p>
+                    <p class="bloc1P">✓ JAVASCRIPT /JQuery</p>
+                    <p class="bloc1P">✓ BOOTSRAP</p>
+                    <p class="bloc1P">✓ SAAS</p>
+                </div>
+                <div class="blocLeft1">
+                    <img class="stack" src="img/stacking.png">
+                    <h3><a class="title3">Other Stack</a></h3>
+                    <p class="bloc1P">✓ Adobe XD</p>
+                    <p class="bloc1P">✓ UX Design</p>
+                    <p class="bloc1P">✓ Photoshop</p>
+                    <p class="bloc1P">✓ WordPress</p>
+                    <p class="bloc1P">✓ PhpMyAdmin</p>
+                    <p class="bloc1P">✓ Git</p>
+                    <p class="bloc1P">✓ Agility (Scrum)</p>
+                    <p class="bloc1P">✓ PhpStorm 2020.1.</p>
+                    <p class="bloc1P">✓ JMERISE</p>
+                </div>
+                <div class="blocLeft2">
+                    <img class="language" src="img/language.png">
+                    <h3><a class="title3">Langues</a></h3>
+                    <p class="bloc1P">✓ Anglais</p>
+                    <p class="bloc1P">✓ Espagnol</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cadre1">
+        <div class="bloc1" id="portfolio">
+            <img class="web" src="img/website.png">
+            <h2><a class="title1">Mon portfolio....mes projets....réalisés et en cours</a></h2>
+                <div class="blocLeft">
+                    <p class="bloc1P">Site Web & responsif d’un professeur de Golf – Gilles Arnaud sous Symfony</p>
+                    <p class="bloc1P">Site Web & responsif d’un E-commerce sous Wordpress</p>
+                </div>
+        </div>
+    </section>
+</main>
+
+    {% endblock %}
